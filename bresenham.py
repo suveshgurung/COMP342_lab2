@@ -101,8 +101,6 @@ def main():
         # Print info about the line
         dx = abs(x2 - x1)
         dy = abs(y2 - y1)
-        slope_type = "|m| < 1" if dx > dy else ("|m| >= 1" if dx < dy else "|m| = 1")
-        print(f"Line ({x1},{y1}) to ({x2},{y2}): dx={dx}, dy={dy}, {slope_type}, points={len(points)}")
     
     while not glfw.window_should_close(window):
         glClear(GL_COLOR_BUFFER_BIT)
