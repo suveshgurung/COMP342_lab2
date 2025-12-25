@@ -1,6 +1,5 @@
 import glfw
 from OpenGL.GL import *
-import numpy as np
 
 def dda_line(x1, y1, x2, y2):
     points = []
